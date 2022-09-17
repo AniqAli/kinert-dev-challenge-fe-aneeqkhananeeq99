@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1290px;
+  padding: 1rem 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.main-container p {
+  margin-top: 2rem;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.skill-box-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill-box {
+  background: royalblue;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.portfolio-container {
+  margin-top: 4rem;
+}
+
+.portfolio-container a {
+  background: grey;
+  color: black;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cv-container {
+  margin-top: 2rem;
+}
+
+.cv-container a {
+  color: black;
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 14px;
+  margin-top: 1rem;
+}

@@ -4,9 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h2>asd</h2>
+    <section>
+      <div class="container">
+        <div class="main-container">
+          <h1>Hi</h1>
+          <h1>I'm Aniq Ali.</h1>
+          <p>
+            I am a Front End Web Developer having expertise in HTML5, CSS3,
+            JavaScript, React JS, Redux, Github, Bootstrap, Tailwind CSS,
+            Firebase etc.
+            <br />
+            I have also UI/UX Designing skills in Figma Tool.
+          </p>
+          <div class="skills-container">
+            <h2>Skills/Ratings</h2>
+            <div class="skill-box-container">
+              <div class="skill-box">HTML5</div>
+              <div class="skill-box">CSS3</div>
+              <div class="skill-box">Bootstrap</div>
+              <div class="skill-box">Tailwind CSS</div>
+              <div class="skill-box">JavaScript</div>
+              <div class="skill-box">React JS</div>
+              <div class="skill-box">Redux</div>
+              <div class="skill-box">Figma</div>
+              <div class="skill-box">Github</div>
+            </div>
+            <div class="skill-box-container">
+              <div class="skill-box">10 out of 10</div>
+              <div class="skill-box">7 out of 10</div>
+              <div class="skill-box">8 out of 10</div>
+              <div class="skill-box">6 out of 10</div>
+              <div class="skill-box">6 out of 10</div>
+              <div class="skill-box">5 out of 10</div>
+              <div class="skill-box">5 out of 10</div>
+              <div class="skill-box">5 out of 10</div>
+              <div class="skill-box">5 out of 10</div>
+            </div>
+          </div>
+
+          <div class="portfolio-container">
+            <p>
+              I have worked on different websites, softwares, and some
+              prototypes. You can check my portfolio here:
+            </p>
+            <br />
+            <a href="https://www.behance.net/aniqali" target="_blank">
+              Go To Portfolio
+            </a>
+          </div>
+          <div class="cv-container">
+            <p>You can also download my resume to check my details.</p>
+            <a href="./AniqAli-Resume.pdf" download="">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const MAX_DICE = 6;
+      let a = 2;
+      let b = 2;
+
+      function diceRoll(a, b) {
+        // console.log(a, b);
+
+        if (a + MAX_DICE >= b) {
+          return true;
+        }
+
+        return false;
+      }
+
+      diceRoll(a, b);
+
+      console.log(diceRoll(a, b));
+    </script>
   </body>
 </html>
